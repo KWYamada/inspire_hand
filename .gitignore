@@ -1,0 +1,119 @@
+# -------- OS / Editor cruft ----------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+*.tmp
+*.log
+*.bak
+*.cache
+.idea/
+.vscode/
+*.iml
+
+# -------- Node / React (CRA) ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.#*
+yarn.lock.#*
+pnpm-lock.yaml.#*
+lerna-debug.log
+
+# CRA build output
+build/
+# Optional local dev SSL certs (if any)
+ssl/
+# Env files (front-end)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -------- Python / FastAPI backend ----------
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.installed.cfg
+
+# Test / coverage / type-check
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+ruff_cache/
+.pyre/
+
+# Logs & runtime files
+uvicorn*.log
+gunicorn*.log
+celerybeat-schedule
+celerybeat.pid
+
+# Local config / secrets (backend)
+backend/.env
+backend/.env.*
+*.pem
+*.key
+
+# -------- Data / Temp ----------
+tmp/
+temp/
+logs/
+*.sqlite
+*.sqlite3
+*.db
+data/
+datasets/
+checkpoints/
+
+# -------- Images / Media / Artifacts ----------
+*.png~
+*.jpg~
+*.jpeg~
+*.mp4~
+*.webm~
+*.wav~
+*.pkl
+*.npy
+
+# -------- Docker / Compose (optional) ----------
+# Uncomment if you generate these locally
+# docker-compose.override.yml
+# .docker/
+# .dockerignore.generated
+
+# -------- Jetson / CUDA build leftovers (optional) ----------
+# Ignore if you build native wheels or kernels locally
+*.cu.o
+*.ptx
+*.cubin
+
+# -------- Misc tool caches ----------
+.cache/
+.parcel-cache/
+.eslintcache
+
